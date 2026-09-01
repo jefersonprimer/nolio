@@ -384,14 +384,27 @@ button {
 /* ── Links ────────────────────────────────────────────────────────────────── */
 
 .ProseMirror a {
-  color: #2383e2;
+  color: #374151;
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration-color: rgba(55, 65, 81, 0.4);
+  text-underline-offset: 3px;
   cursor: pointer;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
 }
 
 .ProseMirror a:hover {
-  color: #4ba3f5;
+  color: #111827;
+  text-decoration-color: #111827;
+}
+
+.dark .ProseMirror a {
+  color: #d1d5db;
+  text-decoration-color: rgba(209, 213, 219, 0.4);
+}
+
+.dark .ProseMirror a:hover {
+  color: #f3f4f6;
+  text-decoration-color: #f3f4f6;
 }
 
 /* PageLink (referência de nota filha dentro da descrição) */

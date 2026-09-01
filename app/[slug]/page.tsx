@@ -722,7 +722,7 @@ export default function NotePage() {
               />
             </div>
 
-            <div className="pb-40 relative">
+            <div className="pb-96 md:pb-40 relative">
               <NoteEditor
                 key={note.id}
                 ref={noteEditorRef}

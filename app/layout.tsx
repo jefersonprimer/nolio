@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nolio",
-  description: "Nolio is more than just a notepad - Developed by Primer",
+  description: "Open Fast to Jot Notes & Lists - Developed by PrimerLabs",
 };
 
 export default async function RootLayout({
